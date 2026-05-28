@@ -5,8 +5,9 @@ Blackout is a lightweight, performant utility addon for Windower 4 (Final Fantas
 ## Features
 
 - **Screen Saver Overlay** (Default: 5 minutes idle): Displays a solid black full-screen overlay to act as a screensaver.
+  - *Note for Multiboxers*: After 10 minutes of inactivity, the client will automatically minimize. **Note that the `switchfocus` addon (and other focus-switching utilities) cannot target or switch focus to clients that are minimized.** Multiboxers can turn off auto-minimization on their accounts/clients via `//blackout minimize off` to prevent this.
 - **FPS Display Toggle**: Automatically hides the FFXI FPS display when active and restores it on wake up, ensuring a completely black screen.
-- **Auto-Minimize** (Default: 10 minutes idle): Automatically minimizes the FFXI client window to the Windows taskbar using Windower's built-in minimization command. By default this is enabled, but multiboxers can turn it off individually.
+- **Auto-Minimize** (Default: 10 minutes idle): Automatically minimizes the FFXI client window to the Windows taskbar using Windower's built-in minimization command.
 - **Configurable Background Alpha**: Customize the screensaver overlay opacity from 0 (fully transparent) to 255 (completely black).
 - **Smart Inactivity Detection**:
   - Resets idle timers upon any keyboard input or mouse movement.
